@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Установка кодировки символов -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Установка масштабирования для мобильных устройств -->
+    <title>User List</title> <!-- Заголовок страницы -->
+    <link rel="stylesheet" href="/css/styles.css"> <!-- Подключение файла стилей -->
+</head>
+<body>
+<div class="container"> <!-- Контейнер для содержимого страницы -->
+    <h1>User List</h1> <!-- Заголовок списка пользователей -->
+    <ul>
+        <% users.forEach(user => { %> <!-- Цикл для отображения каждого пользователя -->
+        <li><%= user.name %> - <%= user.email %></li> <!-- Отображение имени и email пользователя -->
+        <% }) %>
+    </ul>
+    <a href="/">Go back</a> <!-- Ссылка для возврата на главную страницу -->
+</div>
+</body>
+</html>

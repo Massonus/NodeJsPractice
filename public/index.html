@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Установка кодировки символов -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Установка масштабирования для мобильных устройств -->
+    <title>Simple Web App</title> <!-- Заголовок страницы -->
+    <link rel="stylesheet" href="/css/styles.css"> <!-- Подключение файла стилей -->
+</head>
+<body>
+<div class="container"> <!-- Контейнер для содержимого страницы -->
+    <h1>User Form</h1> <!-- Заголовок формы -->
+    <form id="userForm"> <!-- Форма для ввода данных пользователя -->
+        <label for="name">Name:</label> <!-- Метка для поля имени -->
+        <input type="text" id="name" name="name" required> <!-- Поле для ввода имени -->
+
+        <label for="email">Email:</label> <!-- Метка для поля email -->
+        <input type="email" id="email" name="email" required> <!-- Поле для ввода email -->
+
+        <button type="submit">Submit</button> <!-- Кнопка отправки формы -->
+    </form>
+    <div id="message"></div> <!-- Блок для отображения сообщения -->
+</div>
+<script src="/js/script.js"></script> <!-- Подключение файла скриптов -->
+</body>
+</html>
