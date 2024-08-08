@@ -1,4 +1,4 @@
-simple-web-app/
+NodeJsPractice/
 ├── public/                        # Каталог для статических файлов, таких как CSS и JavaScript.
 │   ├── css/
 │   │   └── styles.css             # Файл стилей для веб-страницы.
